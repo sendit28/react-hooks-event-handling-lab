@@ -1,14 +1,12 @@
 import React from 'react';
 
-function Keypad (){
-    function handleChange(event) {
+function Keypad () {
+    function handleChange() {
         console.log('Entering password...')
     }
     
     return (
-        <div>
-            <input type="password" onChange={handleChange}/>
-        </div>
+        <input type="password" onChange={handleChange} />   
     )
 }
 
